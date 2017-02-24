@@ -7,6 +7,6 @@ console.log(myan);
 
 //任务二
 
-var reg1 = /(\b\w+\b)\s\1/;
+var reg1 = /(\b[a-zA-Z]+\b)\s\1/;
 var myan1 = reg1.test("foo orz orz");
 console.log(myan1);
